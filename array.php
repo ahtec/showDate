@@ -6,8 +6,9 @@ $lenghtArray = count($nummers);
 
 for ($dagnr = 0; $dagnr < 31;) {
     for ($i = 0; $i < $lenghtArray; $i++) {
-        echo "<br>" . $nummers[$i];
-        echo ++$dagnr;
+        echo "<br>" . ++$dagnr;
+        echo "&emsp;    ";
+        echo  $nummers[$i];
         if ($dagnr >= 31) {
             exit(0);
         }
